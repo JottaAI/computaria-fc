@@ -148,15 +148,15 @@ body{
   transform:rotate(-2deg);box-shadow:0 6px 16px rgba(0,0,0,.4);
 }
 
-/* VIDEO */
-.video-player{
-  width:100%;max-width:720px;margin:0 auto 60px;
+/* AUDIO */
+.audio-player{
+  width:100%;max-width:520px;margin:0 auto 60px;
   background:rgba(255,255,255,.1);backdrop-filter:blur(14px);
   padding:26px;border-radius:22px;text-align:center;
   border:1px solid rgba(255,255,255,.2);box-shadow:0 12px 34px rgba(0,0,0,.45);
 }
-.video-player h3{font-size:24px;margin-bottom:18px;font-weight:800;}
-.video-player video{width:100%;border-radius:12px;}
+.audio-player h3{font-size:24px;margin-bottom:18px;font-weight:800;}
+.audio-player audio{width:100%;}
 
 /* CAMPO */
 .campo{
